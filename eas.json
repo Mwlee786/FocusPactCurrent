@@ -1,0 +1,23 @@
+{
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true,
+        "developmentClient": true
+      },
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "SUPABASE_URL": "https://srlyyhzeauqeqxtpqswh.supabase.co",
+        "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNybHl5aHplYXVxZXF4dHBxc3doIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI4MzcxODksImV4cCI6MjA0ODQxMzE4OX0.7qskskU2_dX-G7bp8Z3HJf2sCISgD3edNvRhE6HFAoY"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}

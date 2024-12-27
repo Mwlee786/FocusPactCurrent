@@ -1,0 +1,569 @@
+--------- beginning of main
+12-17 11:04:21.581  1979  2206 E CscParser: update(): xml file exist
+12-17 11:04:24.140  1979  2206 E CscParser: update(): xml file exist
+--------- beginning of system
+12-17 11:04:25.642  1121  1469 E Watchdog: !@Sync: 10793 heap: 135 / 140 [2024-12-17 11:04:25.642] sdogWay: softdog FD: 1058
+12-17 11:04:26.039 32176 32176 E AccessibilityManager: semUpdateAssitantMenu invoking from manager:
+12-17 11:04:26.087   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:26.117  4703 26714 E TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack> 
+12-17 11:04:26.117  1979  9522 E TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack> 
+12-17 11:04:26.117  6150 17390 E TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack> 
+12-17 11:04:26.117  4241 27848 E TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack> 
+12-17 11:04:26.117  1979  2231 E TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack> 
+12-17 11:04:26.145  1121  2210 E WindowManager: win=Window{a466b6b u0 com.android.settings/com.android.settings.SubSettings} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.ActivityRecord.notifyAppStopped:5887 com.android.server.wm.ActivityRecord.activityStopped:6513 com.android.server.wm.ActivityClientController.activityStopped:253 android.app.IActivityClientController$Stub.onTransact:596 com.android.server.wm.ActivityClientController.onTransact:129 
+12-17 11:04:26.217  3026  3026 E USNET   : USNET: appName: com.google.android.gm
+12-17 11:04:26.922   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:26.939   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:26.955   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:26.973   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:26.989   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.005   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.022   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.039   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.056   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.072   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.089   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.106   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.122   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.139   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.156   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.172   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.189   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.206   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.223   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.239   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.256   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.273   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.290   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.306   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.323   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.340   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.357   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.358  1121  2211 E WindowManager: win=Window{5df6385 u0 com.samsung.android.spay.pay.HintService} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:2951 com.android.server.wm.WindowManagerService.relayoutWindow:2675 com.android.server.wm.Session.relayout:242 android.view.IWindowSession$Stub.onTransact:790 com.android.server.wm.Session.onTransact:176 android.os.Binder.execTransactInternal:1215 android.os.Binder.execTransact:1179 
+12-17 11:04:27.374   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.391   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.407   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.424   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.441   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.457   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.658   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.675   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.691   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.708   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.709  1121  1459 E WindowManager: win=Window{135d8f6 u0 app.olauncher/app.olauncher.MainActivity EXITING} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:27.725   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.742   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.758   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.775   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.792   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.808   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.825   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.842   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.858   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.875   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:27.892   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.176   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.193   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.209   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.226   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.243   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.259   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.276   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.293   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.310   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.326   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.343   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.360   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.376   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.393   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.410   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.426   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.443   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.460   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.493   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.526   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.543   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.559   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.575  1121  4459 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+12-17 11:04:28.575  1121  4459 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+12-17 11:04:28.576   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.584   701   701 E ViewRootImpl: sendUserActionEvent() mView returned.
+12-17 11:04:28.593   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.610   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.626   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.643   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.659   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.676   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.693   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.710   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.726   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.743   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.760   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.776   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.793   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.810   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:28.828  1121  2207 E WindowManager: win=Window{d68a580 u0 com.sec.android.app.launcher/com.android.quickstep.RecentsActivity} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.ActivityRecord.notifyAppStopped:5887 com.android.server.wm.ActivityRecord.activityStopped:6513 com.android.server.wm.ActivityClientController.activityStopped:253 android.app.IActivityClientController$Stub.onTransact:596 com.android.server.wm.ActivityClientController.onTransact:129 
+12-17 11:04:29.462   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.479   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.496   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.512   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.529   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.546   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.562   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.579   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.596   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.613   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.629   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.646   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.663   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.680   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.696   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.713   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.730   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.746   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.763   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.780   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:29.796   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:30.197   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:30.214   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:30.264   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:30.498   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:30.515   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:30.531   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:31.814  1979  2206 E CscParser: update(): xml file exist
+12-17 11:04:32.093  1121  4459 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+12-17 11:04:32.093  1121  4459 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+12-17 11:04:33.021   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.096   770   775 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*launch*[S] 
+12-17 11:04:33.097   770   775 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*launch*[S] 
+12-17 11:04:33.105   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.137   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.142  3247  3247 E cuspact.releas: Not starting debugger since process cannot load the jdwp agent.
+12-17 11:04:33.144  3247  3247 E USNET   : USNET: appName: com.main.focuspact.release
+12-17 11:04:33.154   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.171   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.187   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.190  1121  4487 E WindowManager: win=Window{5df6385 u0 com.samsung.android.spay.pay.HintService} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:2951 com.android.server.wm.WindowManagerService.relayoutWindow:2675 com.android.server.wm.Session.relayout:242 android.view.IWindowSession$Stub.onTransact:790 com.android.server.wm.Session.onTransact:176 android.os.Binder.execTransactInternal:1215 android.os.Binder.execTransact:1179 
+12-17 11:04:33.204   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.220   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.237   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.254   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.271   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.288   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.304   770   775 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*launch*[S] 
+12-17 11:04:33.304   770   775 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*launch*[S] 
+12-17 11:04:33.304   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.304   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.316  3242  3242 E pageboostd: Received HALT command code 2
+12-17 11:04:33.321   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.337   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.346  1121  4466 E WindowManager: win=Window{1a72702 u0 InputMethod} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:2951 com.android.server.wm.WindowManagerService.relayoutWindow:2675 com.android.server.wm.Session.relayout:242 android.view.IWindowSession$Stub.onTransact:790 com.android.server.wm.Session.onTransact:176 android.os.Binder.execTransactInternal:1215 android.os.Binder.execTransact:1179 
+12-17 11:04:33.354   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.358  3300  3300 E m.facebook.orc: Not starting debugger since process cannot load the jdwp agent.
+12-17 11:04:33.363  3300  3300 E USNET   : USNET: appName: com.facebook.orca
+12-17 11:04:33.423  1121  1459 E WindowManager: win=Window{ffbaf9b u0 Splash Screen com.main.focuspact.release EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:33.522   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.533  1121  4466 E WindowManager: win=Window{135d8f6 u0 app.olauncher/app.olauncher.MainActivity} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.ActivityRecord.notifyAppStopped:5887 com.android.server.wm.ActivityRecord.activityStopped:6513 com.android.server.wm.ActivityClientController.activityStopped:253 android.app.IActivityClientController$Stub.onTransact:596 com.android.server.wm.ActivityClientController.onTransact:129 
+12-17 11:04:33.589   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 0ms: MessengerApplication instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 21ms: FirebaseInitCustomProvider instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 22ms: MessengerLoggedInUserProvider instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 22ms: FbContactsContentProvider instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 23ms: MessengerPlatformProvider instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 23ms: FileProvider instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 24ms: MessagesDbContentProvider instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 24ms: FamilyAppsUserValuesLiteProvider instantiating…
+12-17 11:04:33.599  3300  3300 E SlowAppComponent: 27ms: ThreadsDbPropertiesContentProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 27ms: ClientMessagePushDedupInfoProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 28ms: PlatformProviderBase instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 28ms: FamilyAppsUserValuesProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 29ms: SecureFileProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 33ms: InitializationProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 40ms: DecryptedAttachmentProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 39ms: QuickExperimentContentProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 40ms: TamAttachmentProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: 40ms: SecureMessagingKeyContentProvider instantiating…
+12-17 11:04:33.600  3300  3300 E SlowAppComponent: Main thread was blocked for 50ms in the background starting with MessengerApplication
+12-17 11:04:33.606   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.622   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.639   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:33.647   739   739 E audit   : type=1400 audit(1734462273.631:97770): avc:  denied  { read } for  pid=3300 comm="AppInit1" name="zoneinfo" dev="proc" ino=4026531860 scontext=u:r:untrusted_app:s0:c221,c257,c512,c768 tcontext=u:object_r:proc_zoneinfo:s0 tclass=file permissive=0 SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:33.647   739   739 E audit   : type=1300 audit(1734462273.631:97770): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=b40000702aaa8d10 a2=0 a3=0 items=0 ppid=772 pid=3300 auid=4294967295 uid=10477 gid=10477 euid=10477 suid=10477 fsuid=10477 egid=10477 sgid=10477 fsgid=10477 tty=(none) ses=4294967295 comm="AppInit1" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c221,c257,c512,c768 key=(null)
+12-17 11:04:33.648   739   739 E audit   : type=1327 audit(1734462273.631:97770): proctitle="com.facebook.orca"
+12-17 11:04:33.658   739   739 E audit   : type=1400 audit(1734462273.641:97771): avc:  granted  { execute } for  pid=3300 comm="AppInit5" path="/data/data/com.facebook.orca/lib-compressed/libdexload.so" dev="sda31" ino=66654 scontext=u:r:untrusted_app:s0:c221,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c221,c257,c512,c768 tclass=file SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:33.711  3300  3343 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+12-17 11:04:33.711  3300  3343 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+12-17 11:04:33.711  3300  3343 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+12-17 11:04:33.713  3300  3343 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+12-17 11:04:33.724  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 1:AddProcessNameToErrorReport, deps=null
+12-17 11:04:33.724  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 105:DgwEarlySyncInitializer, deps=[161, 198, 219, 221, 224]
+12-17 11:04:33.724  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 111:DownloadedFbResources, deps=[221, 224]
+12-17 11:04:33.724  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 120:ErrorReporterSecondaryInit, deps=[126, 161]
+12-17 11:04:33.724  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 132:FixieActivityManagerHook, deps=null
+12-17 11:04:33.724  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 133:FixieLimitNativeStackSize, deps=null
+12-17 11:04:33.724  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 134:FixieNoSync, deps=null
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 150:InitAppChoreographer, deps=null
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 135:FixieScheduleIdleWork, deps=[150, 299]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 138:ForegroundServiceTracker, deps=[140]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 143:HandleAppComponentsForPreTosBuild, deps=null
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 145:INeedInitForBroadcastReceiverRegister, deps=[282]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 146:INeedInitForEventBusRegister, deps=null
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 147:INeedInitForGatekeepersListenerRegister, deps=null
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 148:INeedInitForSharedPrefsListenerRegister, deps=[219, 221, 224]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 149:InitAndroidX, deps=[197]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 163:InitFury, deps=[221]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 166:InitImagePipeline, deps=[221]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 169:InitLacrimaLaterInit, deps=[168]
+12-17 11:04:33.725  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 170:InitLogging, deps=null
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 172:InitMemoryDumpHandler, deps=[221]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 174:InitMessengerLoggers, deps=[140, 221]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 177:InitPreWarmRsysEngine, deps=[221]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 179:InitPushabilityCheck, deps=[180]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 181:InitReliableMedia, deps=[198, 219, 268]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 187:InitSystrace, deps=null
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 194:LanguageSwitcherCommonExInit, deps=[126]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 195:LazyCustomErrorDataInitializer, deps=null
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 201:LocationRequestDetector, deps=[221]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 202:LogController, deps=[126]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 206:MessageQueueDoctor, deps=[221]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 207:MessengerBindToFirebaseProcess, deps=[126]
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 212:MessengerInstacrashLoopBugReport, deps=null
+12-17 11:04:33.726  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 227:MprotectCode, deps=null
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 229:MqttEarlySyncInitializerAfterAppCreate, deps=[107, 213]
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 230:NotifyAppStateManagerOnCreateComplete, deps=[161, 221]
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 231:ObjectCountJestE2EBridge, deps=null
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 233:OrcaFirstInstallInitializer, deps=[126]
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 253:ProfiloBridgeFactoryImpl, deps=[205, 282]
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 254:RasFileInitializer, deps=null
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 256:RegisterFrameRateTraceListener, deps=null
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 257:RegisterMainLooperTracer, deps=null
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 258:RegisterMessengerBackgroundRestartedReceiver, deps=null
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 265:ReplayBroadcastReceivedDuringAppInit, deps=[299]
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 271:ScheduleLowPriWork, deps=[299]
+12-17 11:04:33.727  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 277:SetupDynaBuilds, deps=null
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 289:TransientNetworkTraceEarlyInit, deps=[282]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 301:WarmFacebookEmojiFont, deps=[126, 221]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 302:WarmUpColdStartReceiver, deps=[299]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 303:WhitehatOverlayInitializer, deps=[126, 140]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 305:ZeroLibraryInitializer, deps=[126]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 204:LongtailVoltronAppInit, deps=[161, 221]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 215:MessengerScheduleInitMallocHooks, deps=[221]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 220:MobileConfigAdminIdLaterInit, deps=[161, 219, 224]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 222:MobileConfigLaterInit, deps=[112, 161, 224]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 225:MobileConfigSessionlessLaterInit, deps=[113, 161]
+12-17 11:04:33.728  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 249:PreloadVideo, deps=[126, 282]
+12-17 11:04:33.729  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 270:RuntimesPermissionsUtilLoader, deps=null
+12-17 11:04:33.729  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 276:SetupBlockingBackgroundComponentReporting, deps=[282]
+12-17 11:04:33.729  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 283:StartupQPLReplayer, deps=[282]
+12-17 11:04:33.729  3300  3353 E AppInitScheduler|Schedule: Call to schedule after shutdown: 284:StartupQPLTransitToMatureStage, deps=[283]
+12-17 11:04:33.786  3300  3357 E DexLibLoader: could not find package com.google.android.art android.content.pm.PackageManager$NameNotFoundException: com.google.android.art
+12-17 11:04:34.324   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:34.364  1979  2206 E CscParser: update(): xml file exist
+12-17 11:04:34.365  3300  3515 E msgr.msys: E[M setup]_MCAMailboxAuxiliaryDBTransferCallback(1620)=>[not an error] Mailbox 0xb4000070dab7ca30 bootstrapping aux db for AS 0xb40000705ab0fbd0, databaseConfig=NULL? 0, !earlyAuxDBOpen? 1,!MCIAuxiliaryDBManagementHasBootstrapStarted? 1
+12-17 11:04:34.366  3300  3515 E msgr.msys: E[D setup]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1536)=>[not an error][aux db type=2][accountSession=0xb40000705ab0fbd0]  Initial initialization state = 0
+12-17 11:04:34.392  3300  3515 E msgr.msys: E[D MemMciAuxDbManagement]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1572)=>[not an error][aux db type=2][accountSession=0xb40000705ab0fbd0] Final initialization state = 2
+12-17 11:04:34.392  3300  3515 E msgr.msys: E[D setup]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1536)=>[not an error][aux db type=5][accountSession=0xb40000705ab0fbd0]  Initial initialization state = 0
+12-17 11:04:34.395  3300  3515 E msgr.msys: E[D MemMciAuxDbManagement]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1572)=>[not an error][aux db type=5][accountSession=0xb40000705ab0fbd0] Final initialization state = 3
+12-17 11:04:34.395  3300  3515 E msgr.msys: E[D setup]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1536)=>[not an error][aux db type=1][accountSession=0xb40000705ab0fbd0]  Initial initialization state = 0
+12-17 11:04:34.424   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:34.434  3300  3515 E msgr.msys: E[D MemMciAuxDbManagement]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1572)=>[not an error][aux db type=1][accountSession=0xb40000705ab0fbd0] Final initialization state = 2
+12-17 11:04:34.434  3300  3515 E msgr.msys: E[D setup]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1536)=>[not an error][aux db type=3][accountSession=0xb40000705ab0fbd0]  Initial initialization state = 0
+12-17 11:04:34.437  3300  3515 E msgr.msys: E[D MemMciAuxDbManagement]_MCIAuxiliaryDBManagementBootstrapAndTransferSingularDBIfNeeded(1572)=>[not an error][aux db type=3][accountSession=0xb40000705ab0fbd0] Final initialization state = 3
+12-17 11:04:34.441   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:34.458   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:34.474   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:34.491   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:34.525 29962 29962 E [SPAF]AutofillSaveDialogReceiver: Register Cancel!!! value : 0
+12-17 11:04:34.525 29962 29962 E [SPAF]AutofillSaveDialogReceiver: Register Never!!! value : 999
+12-17 11:04:34.584  1121  4486 E ClipboardService: Denying clipboard access to com.main.focuspact.release, application is not in focus nor is it a system service for user 0
+12-17 11:04:34.638  3300  3484 E msgr.msys: E[ADNSUCTIMH WA]WPTTimerImplScheduleSet(107)=>WPTTimerImplInMemory/negative_timer_delay current:756155076.00, execute:756154884.00 device current:756155074.64 key: mem_message_persistence_store_periodic_messages_backup_60
+12-17 11:04:34.732  3300  3364 E msgr.OneTraceIdSampleRate: No sample rate defined for trace type
+12-17 11:04:35.076   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.093   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.260   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.277   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.377   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.393   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.477   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.494   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.594   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.611   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.761   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.778   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:35.865  3610  3610 E com.whatsapp: Not starting debugger since process cannot load the jdwp agent.
+12-17 11:04:35.866  3610  3610 E USNET   : USNET: appName: com.whatsapp
+12-17 11:04:35.995   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:36.012   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:36.105  1121  4459 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+12-17 11:04:36.105  1121  4459 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+12-17 11:04:36.529   739   739 E audit   : type=1400 audit(1734462276.521:97788): avc:  granted  { execute } for  pid=3610 comm="com.whatsapp" path="/data/data/com.whatsapp/files/decompressed/libs.spo/libc++_shared.so" dev="sda31" ino=463524 scontext=u:r:untrusted_app:s0:c229,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c229,c256,c512,c768 tclass=file SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:36.530   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:36.530   739   739 E audit   : type=1300 audit(1734462276.521:97788): arch=c00000b7 syscall=222 success=yes exit=478993887232 a0=6f8642b000 a1=f1be0 a2=5 a3=12 items=0 ppid=772 pid=3610 auid=4294967295 uid=10229 gid=10229 euid=10229 suid=10229 fsuid=10229 egid=10229 sgid=10229 fsgid=10229 tty=(none) ses=4294967295 comm="com.whatsapp" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c229,c256,c512,c768 key=(null)
+12-17 11:04:36.530   739   739 E audit   : type=1327 audit(1734462276.521:97788): proctitle="com.whatsapp"
+12-17 11:04:36.541   739   739 E audit   : type=1400 audit(1734462276.531:97789): avc:  granted  { execute } for  pid=3610 comm="com.whatsapp" path="/data/data/com.whatsapp/files/decompressed/libs.spo/libwa_log.so" dev="sda31" ino=471337 scontext=u:r:untrusted_app:s0:c229,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c229,c256,c512,c768 tclass=file SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:36.546   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:36.753  1121  2088 E AppOps  : User 0, OP 24 is restricted by 1000
+12-17 11:04:36.764  1121  2088 E AppOps  : User 0, OP 24 is restricted by 1000
+12-17 11:04:36.880  1121  2088 E AppOps  : User 0, OP 24 is restricted by 1000
+12-17 11:04:36.899  1121  3395 E AppOps  : User 0, OP 24 is restricted by 1000
+12-17 11:04:37.014   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.031   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.080  1121  2088 E AppOps  : User 0, OP 24 is restricted by 1000
+12-17 11:04:37.087  3610  3645 E SQLiteLog: (1) duplicate column name: mute_reactions in "ALTER TABLE settings ADD mute_reactions INTEGER"
+12-17 11:04:37.265   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.281   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.448   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.465   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.482  3751  3751 E USNET   : USNET: appName: com.google.android.projection.gearhead:provider
+12-17 11:04:37.565   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.582   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.916   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:37.933   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.066   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.083   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.168  1121  1459 E WindowManager: win=Window{31a774e u0 Autofill UI EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.WindowState.destroySurface:4175 com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 
+12-17 11:04:38.267   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.284   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.618   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.635   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.785   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:38.801   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:39.303   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:39.570   739   739 E audit   : type=1400 audit(1734462279.551:97796): avc:  granted  { execute } for  pid=3300 comm="CombinedTP1" path="/data/data/com.facebook.orca/lib-compressed/libartdistract.so" dev="sda31" ino=66274 scontext=u:r:untrusted_app:s0:c221,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c221,c257,c512,c768 tclass=file SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:39.570   739   739 E audit   : type=1300 audit(1734462279.551:97796): arch=c00000b7 syscall=222 success=yes exit=481027497984 a0=6fff792000 a1=95c0 a2=5 a3=12 items=0 ppid=772 pid=3300 auid=4294967295 uid=10477 gid=10477 euid=10477 suid=10477 fsuid=10477 egid=10477 sgid=10477 fsgid=10477 tty=(none) ses=4294967295 comm="CombinedTP1" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c221,c257,c512,c768 key=(null)
+12-17 11:04:39.570   739   739 E audit   : type=1327 audit(1734462279.551:97796): proctitle="com.facebook.orca"
+12-17 11:04:39.791   739   739 E audit   : type=1400 audit(1734462279.781:97797): avc:  granted  { execute } for  pid=3300 comm="CombinedTP1" path="/data/data/com.facebook.orca/lib-compressed/libmsysohai-jni.so" dev="sda31" ino=67124 scontext=u:r:untrusted_app:s0:c221,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c221,c257,c512,c768 tclass=file SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:39.821   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:39.971   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:39.988   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.238   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.255   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.405   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.422   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.539   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.544  3300  3372 E msgr.ClientMessagePushDedupInfoProvider: Context is null, sync db failed to initialize
+12-17 11:04:40.556   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: Writing exception to parcel
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: java.lang.IllegalArgumentException: Unsupported MIME type audio/m4a
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at com.android.providers.media.MediaProvider.ensureFileColumns(MediaProvider.java:3280)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at com.android.providers.media.MediaProvider.ensureUniqueFileColumns(MediaProvider.java:3097)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at com.android.providers.media.MediaProvider.insertFile(MediaProvider.java:3855)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at com.android.providers.media.MediaProvider.insertInternal(MediaProvider.java:4366)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at com.android.providers.media.MediaProvider.insert(MediaProvider.java:4139)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at android.content.ContentProvider$Transport.insert(ContentProvider.java:344)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:168)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at android.os.Binder.execTransactInternal(Binder.java:1215)
+12-17 11:04:40.564  4185 20038 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:1179)
+12-17 11:04:40.622   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.639   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.739   739   739 E audit   : type=1400 audit(1734462280.731:97799): avc:  granted  { execute } for  pid=3300 comm="CombinedTP4" path="/data/data/com.facebook.orca/lib-compressed/libmodelsmerged.so" dev="sda31" ino=67108 scontext=u:r:untrusted_app:s0:c221,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c221,c257,c512,c768 tclass=file SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:40.739   739   739 E audit   : type=1300 audit(1734462280.731:97799): arch=c00000b7 syscall=222 success=yes exit=480965091328 a0=6ffbc0e000 a1=1e6c0 a2=5 a3=12 items=0 ppid=772 pid=3300 auid=4294967295 uid=10477 gid=10477 euid=10477 suid=10477 fsuid=10477 egid=10477 sgid=10477 fsgid=10477 tty=(none) ses=4294967295 comm="CombinedTP4" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c221,c257,c512,c768 key=(null)
+12-17 11:04:40.739   739   739 E audit   : type=1327 audit(1734462280.731:97799): proctitle="com.facebook.orca"
+12-17 11:04:40.757   739   739 E audit   : type=1400 audit(1734462280.741:97800): avc:  granted  { execute } for  pid=3300 comm="CombinedTP4" path="/data/data/com.facebook.orca/lib-compressed/libmessengerdownloadservice.so" dev="sda31" ino=67065 scontext=u:r:untrusted_app:s0:c221,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c221,c257,c512,c768 tclass=file SEPF_SM-G973W_12_0001 audit_filtered
+12-17 11:04:40.790   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:40.806   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:41.057   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:41.074   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:41.333   770   775 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*dexopt*[S] 
+12-17 11:04:41.335   770   775 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*dexopt*[S] 
+12-17 11:04:41.541   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:41.800  1121  3395 E ClipboardService: Denying clipboard access to com.main.focuspact.release, application is not in focus nor is it a system service for user 0
+12-17 11:04:42.177   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:42.193   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:42.412  1121  1459 E WindowManager: win=Window{1815156 u0 Autofill UI EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.WindowState.destroySurface:4175 com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 
+12-17 11:04:42.460   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:42.477   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:42.744   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:42.761   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:43.028   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:43.045   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:43.262   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:43.279   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:43.597   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:43.613   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.081   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.131   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.148   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.164   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.181   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.198   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.214   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.231   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.248   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.265   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.281   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.298   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.315   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.331   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.348   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.365   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.382   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.398   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.415   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.432   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.448   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.465   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.482   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.499   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.515   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.532   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.549   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.565   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.582   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.599   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.615   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.632   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.649   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.666   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.682   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.699   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.732   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.750   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.766   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.783   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.799   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.816   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.833   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.849   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.866   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.883   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.900   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.916   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.933   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.950   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.966   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:44.983   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.000   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.016   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.024  1121  3395 E WindowManager: win=Window{1a72702 u0 InputMethod} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:2951 com.android.server.wm.WindowManagerService.relayoutWindow:2675 com.android.server.wm.Session.relayout:242 android.view.IWindowSession$Stub.onTransact:790 com.android.server.wm.Session.onTransact:176 android.os.Binder.execTransactInternal:1215 android.os.Binder.execTransact:1179 
+12-17 11:04:45.033   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.050   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.067   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.083   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.100   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.167   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.183   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.200   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.217   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.234   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.250   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.267   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.284   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.301   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.317   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.334   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.351   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.367   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.384   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.401   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.418   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.434   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.451   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.468   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:45.484   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.005   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.155   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.272   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.272   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.289   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.306   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.306   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.322   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.323   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.339   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.339   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.339   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.340   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.340   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.340   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.340   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.356   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.357   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.357   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.357   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.357   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.357   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.373   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.389   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:47.775   770   775 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*dexopt*[S] 
+12-17 11:04:47.775   770   775 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10712[I] (10)0x30000->*dexopt*[S] 
+12-17 11:04:48.522  3300  3516 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+12-17 11:04:48.726   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.742   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.759   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.776   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.792   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.809   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.826   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.842   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.859   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.876   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.892   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.909   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.926   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.943   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:48.959   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:49.112  1121  1459 E WindowManager: win=Window{5eed52d u0 com.main.focuspact.release/com.main.focuspact.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:50.313   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.330   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.346   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.362   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.379   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.396   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.413   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.429   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.446   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.463   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.479   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.496   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:50.648  1121  1459 E WindowManager: win=Window{99a40a u0 com.main.focuspact.release/com.main.focuspact.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:51.432   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.449   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.465   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.482   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.498   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.515   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.532   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.549   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.565   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.582   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.599   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.615   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.632   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.649   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.665   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:51.919  1121  1459 E WindowManager: win=Window{55da803 u0 com.main.focuspact.release/com.main.focuspact.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:52.568   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.584   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.601   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.618   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.634   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.651   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.668   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.684   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.701   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.718   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.735   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.751   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.768   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:52.937  1121  1459 E WindowManager: win=Window{f484f68 u0 com.main.focuspact.release/com.main.focuspact.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:53.520   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:53.537   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:53.553   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:53.723  1121  1459 E WindowManager: win=Window{e214049 u0 com.main.focuspact.release/com.main.focuspact.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:54.088   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.104   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.121   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.138   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.155   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.171   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.188   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.205   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.221   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.238   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.255   961   961 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+12-17 11:04:54.406  1121  1459 E WindowManager: win=Window{6268576 u0 com.main.focuspact.release/com.main.focuspact.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5842 com.android.server.wm.ActivityRecord.destroySurfaces:5823 com.android.server.wm.WindowState.onExitAnimationDone:5975 com.android.server.wm.WindowStateAnimator.onAnimationFinished:242 com.android.server.wm.WindowState.onAnimationFinished:6228 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda0.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:113 
+12-17 11:04:55.650  1121  1469 E Watchdog: !@Sync: 10794 heap: 133 / 140 [2024-12-17 11:04:55.650] sdogWay: softdog FD: 1051
+12-17 11:04:58.702  1979  2206 E CscParser: update(): xml file exist
+12-17 11:05:02.543  1979  2206 E CscParser: update(): xml file exist
+12-17 11:05:09.416   630  5821 E vold    : getUsedF2fsFileNode -> Cannot Get Used FileNode Number (errno=25 Inappropriate ioctl for device)

@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "FocusPact",
+    "slug": "FocusPact",
+    "scheme": "focuspact",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.main.focuspact",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "focuspact"
+            ]
+          }
+        ],
+        "NSContactsUsageDescription": "\"FocusPact\" would like to access your contacts to help you find friends."
+      }
+    },
+    "android": {
+      "package": "com.main.focuspact",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": {
+            "scheme": "focuspact",
+            "host": "verify-email"
+          },
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "permissions": [
+        "READ_CONTACTS",
+        "WRITE_CONTACTS",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "PACKAGE_USAGE_STATS",
+        "SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "SUPABASE_URL": "https://srlyyhzeauqeqxtpqswh.supabase.co",
+      "SUPABASE_ANON_KEY": "=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNybHl5aHplYXVxZXF4dHBxc3doIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI4MzcxODksImV4cCI6MjA0ODQxMzE4OX0.7qskskU2_dX-G7bp8Z3HJf2sCISgD3edNvRhE6HFAoY",
+      "eas": {
+        "projectId": "91a5856d-15df-4f1d-86be-dad833d627c6"
+      }
+    },
+    "newArchEnabled": true
+  }
+}
