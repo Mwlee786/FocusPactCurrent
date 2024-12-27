@@ -10,10 +10,12 @@ import {
   ActivityIndicator, 
   Alert,
   Image,
+  Linking,
 } from 'react-native';
 import { AuthContext } from '../../context/AuthContext';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { supabase } from '../../services/supabase/supabaseClient';
 
 type RootStackParamList = {
   SignUp: undefined;
@@ -34,6 +36,7 @@ const SignUpScreen: React.FC = () => {
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [googleLoading, setGoogleLoading] = useState(false);
 
   const handleSignUp = async () => {
     if (!email || !password) {
@@ -56,8 +59,32 @@ const SignUpScreen: React.FC = () => {
     }
   };
 
-  const handleGoogleSignUp = () => {
-    Alert.alert('Google Sign Up', 'Coming soon!');
+  const handleGoogleSignUp = async () => {
+    try {
+      setGoogleLoading(true);
+      const { data, error } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: {
+          redirectTo: 'focuspact://',
+          skipBrowserRedirect: true,
+        }
+      });
+
+      if (error) throw error;
+      
+      if (data?.url) {
+        await Linking.openURL(data.url);
+      } else {
+        throw new Error('No URL returned from Supabase');
+      }
+
+      console.log('Successfully initiated Google sign up:', data);
+    } catch (error: any) {
+      console.error('Error signing up with Google:', error);
+      Alert.alert('Google Sign Up Error', error.message || 'An error occurred during Google sign up');
+    } finally {
+      setGoogleLoading(false);
+    }
   };
 
   return (
@@ -93,15 +120,22 @@ const SignUpScreen: React.FC = () => {
       </View>
 
       <TouchableOpacity 
-        style={styles.googleButton}
+        style={[styles.button, styles.googleButton]} 
         onPress={handleGoogleSignUp}
+        disabled={googleLoading}
       >
         <View style={styles.googleButtonContent}>
-          <Image 
-            source={require('../../assets/google-icon.png')}
-            style={styles.googleIcon}
-          />
-          <Text style={styles.googleButtonText}>Continue with Google</Text>
+          {googleLoading ? (
+            <ActivityIndicator color="#4285F4" />
+          ) : (
+            <>
+              <Image 
+                source={require('../../assets/google-icon.png')}
+                style={styles.googleIcon}
+              />
+              <Text style={styles.googleButtonText}>Continue with Google</Text>
+            </>
+          )}
         </View>
       </TouchableOpacity>
       
