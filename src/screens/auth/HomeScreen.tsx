@@ -306,6 +306,12 @@ const HomeScreen: React.FC = () => {
           post_likes!left (
             id,
             user_id
+          ),
+          comments!left (
+            id,
+            user_id,
+            content,
+            created_at
           )
         `)
         .in('user_id', allRelevantIds)
@@ -318,13 +324,25 @@ const HomeScreen: React.FC = () => {
         const transformedPosts = postsData.map(post => ({
           ...post,
           profiles: post.profiles ? { username: (post.profiles as any).username } : null,
-          comments: [],
+          comments: (post.comments || []).map(comment => ({
+            id: comment.id,
+            user_id: comment.user_id,
+            content: comment.content,
+            created_at: comment.created_at,
+            profile: {
+              username: user.username || 'Anonymous',
+              avatar_url: user.user_metadata?.avatar_url
+            },
+            likes: [],
+            like_count: 0,
+            is_liked_by_me: false
+          })),
           likes: (post.post_likes || []).map(like => ({
             ...like,
             created_at: new Date().toISOString(),
             profiles: { username: 'Anonymous' }
           })),
-          comment_count: 0,
+          comment_count: (post.comments || []).length,
           like_count: (post.post_likes || []).length,
           is_liked_by_me: (post.post_likes || []).some(like => like.user_id === user.id)
         }));
