@@ -298,6 +298,10 @@ const HomeScreen: React.FC = () => {
           created_at,
           profiles!inner (
             username
+          ),
+          post_likes!left (
+            id,
+            user_id
           )
         `)
         .in('user_id', allRelevantIds)
@@ -306,29 +310,22 @@ const HomeScreen: React.FC = () => {
       if (postsError) throw postsError;
 
       if (postsData) {
-        // Transform posts with test data for likes and comments
+        // Transform posts with initial data for likes and comments
         const transformedPosts = postsData.map(post => ({
           ...post,
           profiles: post.profiles ? { username: (post.profiles as any).username } : null,
-          comments: [
-            {
-              id: '1',
-              user_id: user.id,
-              content: 'This is a test comment!',
-              created_at: new Date().toISOString(),
-              profiles: { username: user.username || 'Anonymous' },
-              likes: [],
-              like_count: 0,
-              is_liked_by_me: false
-            }
-          ],
-          likes: [],
-          comment_count: 1,
-          like_count: 2,
-          is_liked_by_me: false
+          comments: [],
+          likes: (post.post_likes || []).map(like => ({
+            ...like,
+            created_at: new Date().toISOString(),
+            profiles: { username: 'Anonymous' }
+          })),
+          comment_count: 0,
+          like_count: (post.post_likes || []).length,
+          is_liked_by_me: (post.post_likes || []).some(like => like.user_id === user.id)
         }));
         setPosts(transformedPosts);
-        console.log('Posts set in state with test data:', transformedPosts.length);
+        console.log('Posts set in state with initial data:', transformedPosts.length);
       }
     } catch (error: any) {
       console.error('Error fetching posts:', error.message);
@@ -503,57 +500,91 @@ const HomeScreen: React.FC = () => {
     const post = posts.find(p => p.id === postId);
     if (!post) return;
 
-    // Optimistically update local state
-    setPosts(prevPosts =>
-      prevPosts.map(p =>
-        p.id === postId
-          ? {
-              ...p,
-              like_count: p.is_liked_by_me ? p.like_count - 1 : p.like_count + 1,
-              is_liked_by_me: !p.is_liked_by_me,
-            }
-          : p
-      )
-    );
+    console.log('Attempting to like/unlike post:', {
+      postId,
+      userId: user.id,
+      currentLikeStatus: post.is_liked_by_me,
+      postOwnerId: post.user_id
+    });
 
     try {
       if (post.is_liked_by_me) {
         // Unlike the post
-        const { error } = await supabase
+        console.log('Unliking post...');
+        const { error: unlikeError } = await supabase
           .from('post_likes')
           .delete()
           .eq('post_id', postId)
           .eq('user_id', user.id);
 
-        if (error) throw error;
+        if (unlikeError) throw unlikeError;
+        console.log('Successfully unliked post');
+
+        // Update local state
+        setPosts(prevPosts =>
+          prevPosts.map(p =>
+            p.id === postId
+              ? {
+                  ...p,
+                  like_count: p.like_count - 1,
+                  is_liked_by_me: false
+                }
+              : p
+          )
+        );
       } else {
         // Like the post
-        const { error } = await supabase
+        console.log('Liking post...');
+        const { error: likeError } = await supabase
           .from('post_likes')
           .insert([
             {
               post_id: postId,
               user_id: user.id,
-            },
-          ]);
+              created_at: new Date().toISOString()
+            }
+          ])
+          .single();
 
-        if (error) throw error;
+        if (likeError) {
+          // If it's a duplicate like, just ignore it
+          if (likeError.code === '23505') { // Postgres unique constraint violation code
+            console.log('Duplicate like detected');
+            return;
+          }
+          throw likeError;
+        }
+        console.log('Successfully liked post');
+
+        // Update local state
+        setPosts(prevPosts =>
+          prevPosts.map(p =>
+            p.id === postId
+              ? {
+                  ...p,
+                  like_count: p.like_count + 1,
+                  is_liked_by_me: true
+                }
+              : p
+          )
+        );
       }
     } catch (error: any) {
-      console.error('Error toggling post like:', error.message);
-      // Revert local state on error
+      console.error('Error toggling post like:', error);
+      Alert.alert('Error', 'Failed to update like status');
+      
+      // Revert optimistic update if there was an error
       setPosts(prevPosts =>
         prevPosts.map(p =>
           p.id === postId
             ? {
                 ...p,
-                like_count: p.is_liked_by_me ? p.like_count + 1 : p.like_count - 1,
-                is_liked_by_me: !p.is_liked_by_me,
+                like_count: post.like_count,
+                is_liked_by_me: post.is_liked_by_me
               }
             : p
         )
       );
-      Alert.alert('Error', 'Failed to update like status.');
     }
   };
 
@@ -605,9 +636,16 @@ const HomeScreen: React.FC = () => {
             post_id: postId,
             user_id: user.id,
             content: commentTextToSend,
+            created_at: new Date().toISOString(),
           },
         ])
-        .select('*, profiles(username)')
+        .select(`
+          *,
+          profiles:user_id (
+            username,
+            avatar_url
+          )
+        `)
         .single();
 
       if (error) throw error;
@@ -636,8 +674,10 @@ const HomeScreen: React.FC = () => {
         );
       }
     } catch (error: any) {
-      console.error('Error adding comment:', error.message);
-      // Revert local state on error
+      console.error('Error adding comment:', error);
+      Alert.alert('Error', 'Failed to add comment');
+      
+      // Revert optimistic update
       setPosts(prevPosts =>
         prevPosts.map(p =>
           p.id === postId
@@ -649,7 +689,6 @@ const HomeScreen: React.FC = () => {
             : p
         )
       );
-      Alert.alert('Error', 'Failed to add comment.');
     }
   };
 
@@ -723,14 +762,19 @@ const HomeScreen: React.FC = () => {
         {/* Comments Section */}
         {item.comments.length > 0 && (
           <View style={[styles.commentsSection, { marginTop: 12, paddingTop: 8 }]}>
-            {item.comments.map(comment => (
-              <View key={comment.id} style={styles.commentItem}>
-                <Text style={[styles.commentUsername, { marginRight: 8 }]}>
-                  {comment.profiles?.username || 'Anonymous'}:
-                </Text>
-                <Text style={styles.commentText}>{comment.content}</Text>
-              </View>
-            ))}
+            <FlatList
+              data={item.comments}
+              keyExtractor={comment => comment.id}
+              renderItem={({ item: comment }) => (
+                <View style={styles.commentItem}>
+                  <Text style={[styles.commentUsername, { marginRight: 8 }]}>
+                    {comment.profiles?.username || 'Anonymous'}:
+                  </Text>
+                  <Text style={styles.commentText}>{comment.content}</Text>
+                </View>
+              )}
+              scrollEnabled={false}
+            />
           </View>
         )}
 
