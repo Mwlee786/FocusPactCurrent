@@ -11,15 +11,18 @@ import {
   Alert,
   Image,
   Linking,
+  Platform,
 } from 'react-native';
 import { AuthContext } from '../../context/AuthContext';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { supabase } from '../../services/supabase/supabaseClient';
+import { GoogleSignin } from '@react-native-google-signin/google-signin';
 
 type RootStackParamList = {
   SignIn: undefined;
   SignUp: undefined;
+  Home: undefined;
 };
 
 type SignInScreenNavigationProp = NativeStackNavigationProp<
@@ -36,6 +39,14 @@ const SignInScreen: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [googleLoading, setGoogleLoading] = useState(false);
+
+  React.useEffect(() => {
+    GoogleSignin.configure({
+      iosClientId: process.env.EXPO_PUBLIC_IOS_CLIENT_ID,
+      webClientId: process.env.EXPO_PUBLIC_WEB_CLIENT_ID,
+      offlineAccess: true,
+    });
+  }, []);
 
   const handleSignIn = async () => {
     if (!email || !password) {
@@ -59,23 +70,38 @@ const SignInScreen: React.FC = () => {
   const handleGoogleSignIn = async () => {
     try {
       setGoogleLoading(true);
-      const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: 'google',
-        options: {
-          redirectTo: 'focuspact://',
-          skipBrowserRedirect: true,
-        }
-      });
-
-      if (error) throw error;
       
-      if (data?.url) {
-        await Linking.openURL(data.url);
-      } else {
-        throw new Error('No URL returned from Supabase');
+      await GoogleSignin.hasPlayServices();
+      const userInfo = await GoogleSignin.signIn();
+      
+      // Get both access token and ID token
+      const { accessToken, idToken } = await GoogleSignin.getTokens();
+      
+      if (!accessToken || !idToken) {
+        throw new Error('Failed to get Google tokens');
       }
 
-      console.log('Successfully initiated Google sign in:', data);
+      // Sign in with Supabase using both tokens
+      const { data: authData, error: authError } = await supabase.auth.signInWithIdToken({
+        provider: 'google',
+        token: idToken,
+        access_token: accessToken,
+      });
+
+      if (authError) throw authError;
+      console.log('Successfully signed in with Google:', authData);
+
+      if (authData?.user) {
+        console.log('User data:', authData.user);
+        // The user is already authenticated with Supabase, no need to call signIn again
+        navigation.reset({
+          index: 0,
+          routes: [{ name: 'Home' }],
+        });
+      } else {
+        throw new Error('No user data received from Google sign in');
+      }
+      
     } catch (error: any) {
       console.error('Error signing in with Google:', error);
       Alert.alert('Google Sign In Error', error.message || 'An error occurred during Google sign in');
