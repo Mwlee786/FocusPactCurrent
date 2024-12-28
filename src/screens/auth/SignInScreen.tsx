@@ -67,8 +67,24 @@ const SignInScreen: React.FC = () => {
     }
   };
 
+  const handleSignOut = async () => {
+    try {
+      // Sign out from Google
+      await GoogleSignin.signOut();
+      // Sign out from Supabase
+      await supabase.auth.signOut();
+      // Optionally, you can also revoke access
+      await GoogleSignin.revokeAccess();
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
+  };
+
   const handleGoogleSignIn = async () => {
     try {
+      // Sign out first to ensure clean state
+      await handleSignOut();
+      
       setGoogleLoading(true);
       
       await GoogleSignin.hasPlayServices();
