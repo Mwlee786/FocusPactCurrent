@@ -120,7 +120,11 @@ const SignInScreen: React.FC = () => {
       
     } catch (error: any) {
       console.error('Error signing in with Google:', error);
-      Alert.alert('Google Sign In Error', error.message || 'An error occurred during Google sign in');
+      // Only show alert for errors that aren't cancellation or sign-out related
+      if (error.message !== 'getTokens requires a user to be signed in' && 
+          error.message !== 'Sign in action cancelled') {
+        Alert.alert('Google Sign In Error', error.message || 'An error occurred during Google sign in');
+      }
     } finally {
       setGoogleLoading(false);
     }
