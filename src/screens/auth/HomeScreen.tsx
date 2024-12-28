@@ -25,6 +25,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 interface Profile {
   username: string;
+  avatar_url?: string;
 }
 
 interface Like {
@@ -39,7 +40,10 @@ interface Comment {
   user_id: string;
   content: string;
   created_at: string;
-  profiles: Profile;
+  profile: {
+    username: string;
+    avatar_url?: string;
+  };
   likes: Like[];
   like_count: number;
   is_liked_by_me: boolean;
@@ -600,12 +604,14 @@ const HomeScreen: React.FC = () => {
     }
 
     // Create optimistic comment
-    const optimisticComment = {
+    const optimisticComment: Comment = {
       id: Date.now().toString(),
       user_id: user.id,
       content: commentText.trim(),
       created_at: new Date().toISOString(),
-      profiles: { username: user.username || 'Anonymous' },
+      profile: {
+        username: user.username || 'Anonymous'
+      },
       likes: [],
       like_count: 0,
       is_liked_by_me: false
@@ -629,6 +635,7 @@ const HomeScreen: React.FC = () => {
     setCommentingOnPost(null);
 
     try {
+      // Add comment directly using Supabase
       const { data: newComment, error } = await supabase
         .from('comments')
         .insert([
@@ -637,36 +644,37 @@ const HomeScreen: React.FC = () => {
             user_id: user.id,
             content: commentTextToSend,
             created_at: new Date().toISOString(),
-          },
+          }
         ])
-        .select(`
-          *,
-          profiles:user_id (
-            username,
-            avatar_url
-          )
-        `)
+        .select()
         .single();
 
       if (error) throw error;
 
-      // Update local state with the actual comment from the server
       if (newComment) {
+        // Transform the comment to match our interface
+        const transformedComment: Comment = {
+          id: newComment.id,
+          user_id: newComment.user_id,
+          content: newComment.content,
+          created_at: newComment.created_at,
+          profile: {
+            username: user.username || 'Anonymous',
+            avatar_url: user.user_metadata?.avatar_url
+          },
+          likes: [],
+          like_count: 0,
+          is_liked_by_me: false
+        };
+
+        // Update local state with the actual comment
         setPosts(prevPosts =>
           prevPosts.map(p =>
             p.id === postId
               ? {
                   ...p,
                   comments: p.comments.map(c =>
-                    c.id === optimisticComment.id
-                      ? {
-                          ...newComment,
-                          profiles: newComment.profiles || { username: 'Anonymous' },
-                          likes: [],
-                          like_count: 0,
-                          is_liked_by_me: false,
-                        }
-                      : c
+                    c.id === optimisticComment.id ? transformedComment : c
                   ),
                 }
               : p
@@ -768,7 +776,7 @@ const HomeScreen: React.FC = () => {
               renderItem={({ item: comment }) => (
                 <View style={styles.commentItem}>
                   <Text style={[styles.commentUsername, { marginRight: 8 }]}>
-                    {comment.profiles?.username || 'Anonymous'}:
+                    {comment.profile?.username || 'Anonymous'}:
                   </Text>
                   <Text style={styles.commentText}>{comment.content}</Text>
                 </View>
